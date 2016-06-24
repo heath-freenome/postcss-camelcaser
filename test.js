@@ -11,10 +11,6 @@ function run(t, input, output, opts = { }) {
         });
 }
 
-/* Write tests here
-
-test('does something', t => {
-    return run(t, 'a{ }', 'a{ }', { });
+test('Transforms to camelcase', t=> {
+    return run(t, '.Camel-case_this{}', '.camelCaseThis{}', {});
 });
-
-*/

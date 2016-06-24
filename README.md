@@ -6,15 +6,17 @@
 [ci-img]:  https://travis-ci.org/GMchris/postcss-camelcaser.svg
 [ci]:      https://travis-ci.org/GMchris/postcss-camelcaser
 
+Camelcaser transforms all your selectors to camel case, 
+
 ```css
-.foo {
-    /* Input example */
+.camel-case-me {
+    /* Some stuff */
 }
 ```
 
 ```css
-.foo {
-  /* Output example */
+.camelCaseMe {
+  /* Same stuff */
 }
 ```
 
