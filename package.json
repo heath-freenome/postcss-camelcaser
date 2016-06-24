@@ -1,0 +1,33 @@
+{
+  "name": "postcss-camelcaser",
+  "version": "0.0.0",
+  "description": "PostCSS plugin which camelcases all your selectors.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "camelcase",
+    "camel-case"
+  ],
+  "author": "Kristian Ignatov <christianignatov@gmail.com>",
+  "license": "MIT",
+  "repository": "GMchris/postcss-camelcaser",
+  "bugs": {
+    "url": "https://github.com/GMchris/postcss-camelcaser/issues"
+  },
+  "homepage": "https://github.com/GMchris/postcss-camelcaser",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
