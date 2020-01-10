@@ -9,15 +9,21 @@
     "camelcase",
     "camel-case"
   ],
-  "author": "Kristian Ignatov <christianignatov@gmail.com>",
+  "author": [
+    "Kristian Ignatov <christianignatov@gmail.com>",
+    "Heath Chiavettone <heath.chiavettone@freenome.com>"
+  ],
   "license": "MIT",
-  "repository": "GMchris/postcss-camelcaser",
+  "repository": "heath-freenome/postcss-camelcaser",
   "bugs": {
-    "url": "https://github.com/GMchris/postcss-camelcaser/issues"
+    "url": "https://github.com/heath-freenome/postcss-camelcaser/issues"
   },
-  "homepage": "https://github.com/GMchris/postcss-camelcaser",
+  "homepage": "https://github.com/heath-freenome/postcss-camelcaser",
   "dependencies": {
     "postcss": "^5.0.21"
+  },
+  "publishConfig": {
+    "registry": "https://packagecloud.io/freenome/js/npm/"
   },
   "devDependencies": {
     "ava": "^0.14.0",
