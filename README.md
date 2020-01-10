@@ -21,7 +21,7 @@ Camelcaser transforms all your selectors to camel case, by default choosing to f
 ```
 ## options
 ### `forceCaseStyle`
-type: `('lowerCamelCase' | 'upperCamelCase' | 'off')`
+type: `('lowerCamelCase' | 'UpperCamelCase' | 'off')`
 
 default: `lowerCamelCase`
 
