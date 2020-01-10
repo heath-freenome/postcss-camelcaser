@@ -25,7 +25,7 @@ type: `('lowerCamelCase' | 'upperCamelCase' | 'off')`
 
 default: `lowerCamelCase`
 
-Will force the camel case transformation to a specific (camel case)[https://en.wikipedia.org/wiki/Camel_case] style.
+Will force the camel case transformation to a specific [camel case](https://en.wikipedia.org/wiki/Camel_case) style.
 
 The default style option, `lowerCamelCase`, will ensure that all transformation will have the lower camel case style:
 - `Camel-case_me` => `camelCaseMe`
